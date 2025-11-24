@@ -1,10 +1,12 @@
+# Python - Annotations de Variables
+ 
+<div align="right">
+  <a href="README.md">🇬🇧 English</a> | <a href="README.fr.md">🇫🇷 Français</a>
+</div>
+
 ![Python Variable Annotations](images/python_annotations_header.png)
 
-# Python - Annotations de Variables
-
-**Master**
 Par : Emmanuel Turlay, Staff Software Engineer chez Cruise
-Poids : 1
 
 ## Description
 

@@ -1,10 +1,12 @@
-![Python Variable Annotations](images/python_annotations_header.png)
-
 # Python - Variable Annotations
 
-**Master**
+<div align="right">
+  <a href="README.md">🇬🇧 English</a> | <a href="README.fr.md">🇫🇷 Français</a>
+</div>
+
+![Python Variable Annotations](images/python_annotations_header.png)
+
 By: Emmanuel Turlay, Staff Software Engineer at Cruise
-Weight: 1
 
 ## Description
 

@@ -4,14 +4,15 @@ Module 5-sum_list
 Contains a function that returns the sum of a list of floats and ints
 """
 
-from typing import List, Union
+from typing import List
 
-def sum_list(mixed_list: List[Union[int, float]]) -> float:
+
+def sum_list(input_list: List[float]) -> float:
     """
-    Returns the sum of a list of floats and ints
+    Returns the sum of a list of floats
     Args:
-        mixed_list: list of floats and ints
+        input_list: list of floats
     Returns:
         The sum of the list
     """
-    return sum(mixed_list)
+    return sum(input_list)

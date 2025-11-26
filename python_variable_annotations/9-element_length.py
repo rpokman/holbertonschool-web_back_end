@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Module 9-element_length
-Contains a function that returns a list of tuples with elements and their lengths
+Contains a function that returns a list of tuples
 """
 from typing import Iterable, Sequence, List, Tuple
 

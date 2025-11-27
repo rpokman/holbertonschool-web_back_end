@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+"""
+Module 4-tasks
+Contains an async routine that spawns task_wait_random n times
+"""
+import asyncio
+from typing import List
+
+task_wait_random = __import__('3-tasks').task_wait_random
+
+
+async def task_wait_n(n: int, max_delay: int) -> List[float]:
+    """
+    Spawns task_wait_random n times with the specified max_delay.
+
+    Args:
+        n: Number of times to spawn task_wait_random
+        max_delay: Maximum delay for each task_wait_random call
+
+    Returns:
+        List of delays in ascending order (naturally, without sort)
+    """
+    tasks = [task_wait_random(max_delay) for _ in range(n)]
+
+    delays: List[float] = []
+    for task in asyncio.as_completed(tasks):
+        delay = await task
+        delays.append(delay)
+
+    return delays
